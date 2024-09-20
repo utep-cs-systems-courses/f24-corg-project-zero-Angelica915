@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include "draw.h"
 
@@ -26,3 +27,10 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+// Prints an arrow of specified size?
+
+void print_arrow(int leftCol, int size)
+{
+  print_triangle(5,7);
+  print_square(5,7);
+}
